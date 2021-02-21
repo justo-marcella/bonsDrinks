@@ -5,7 +5,7 @@ export default class FaleConosco extends Component {
         return (
 
             <Fragment>
-                <img src='https://bonsdrinks.netlify.app/static/media/contact-pic.689e126c.jpg'></img>
+                <h1>Contato</h1>
                 <form>
                     <div>
                         <label htmlFor='nome'>Nome:</label>

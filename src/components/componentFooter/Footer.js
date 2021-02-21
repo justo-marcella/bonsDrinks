@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 
 export default class Footer extends Component {
     render() {
         return (
-            <div>
-                
-            </div>
+            <>
+            <p>Alguns direitos reservados</p>
+            </>
         )
     }
 }
