@@ -1,0 +1,16 @@
+.Menu{
+    background-color: var(--white);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .42);
+}
+
+.NavMenu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.NavMenu li{
+    letter-spacing: .8px;
+    font-weight: 600;
+    font-size: 22px;
+}

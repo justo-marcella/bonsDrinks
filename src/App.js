@@ -1,14 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import FaleConosco from './components/componentForm/FaleConosco';
-import Menu from './components/componentMenu/Menu';
-import Footer from './components/componentFooter/Footer';
+import Home from './components/Main/Home';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Menu/>
-      <FaleConosco/>
+      <Header/>
+      <Home/>
       <Footer/>
     </div>
   );
